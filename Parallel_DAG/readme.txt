@@ -10,15 +10,16 @@ Execute the following command:
 
 Airflow db init
 
-I have added the user to pg_hba.conf as well
-
-
-
 Airflow webserver
 Airflow scheduler 
 brew services start postgresql
 
 
+--
+
+I have added the user to pg_hba.conf as well
+
+--
 See the documentation:
 
 https://airflow.apache.org/docs/apache-airflow/stable/howto/set-up-database.html
